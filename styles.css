@@ -39,7 +39,7 @@ section h2{
     font-size: 26px;
     margin-bottom: 10px;
 }
-section img{
+\section img{
     display: block;
     margin: 0 auto;
 }
@@ -76,6 +76,18 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background-color: #555;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #f2f2f2;
 }
 .pageLinks{
     text-align: center;

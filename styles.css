@@ -20,22 +20,12 @@ header{
 header h1{
     margin: 0;
 }
-.pageLinks{
+h2{
+    margin: 0;
     text-align: center;
-    margin: 20px 0;
 }
-.pageLinks a{
-    text-decoration: none;
-    color: #333;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-.pageLinks a:hover{
-    background-color: #333;
-    color: #fff;
+form{
+    text-align: center;
 }
 main{
     max-width: 800px;
@@ -63,4 +53,44 @@ ul li{
 ul li img{
     vertical-align: middle;
     margin-left:16px;
+}
+input[type="Character Name"]{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="text"], input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover{
+    background-color: #555;
+}
+.pageLinks{
+    text-align: center;
+    margin: 20px 0;
+}
+.pageLinks a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.pageLinks a:hover{
+    background-color: #333;
+    color: #fff;
 }

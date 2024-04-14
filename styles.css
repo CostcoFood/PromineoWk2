@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Used the selector to target the content within the body to set font family along with resetting the margin and padding and setting some theme colors and line height. */
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
@@ -11,7 +12,8 @@ body{
     margin: 0;
     padding: 0;
 }
-header{
+/*Set id "title" text to center and added padding to top and bottom */
+#title{
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -20,6 +22,7 @@ header{
 header h1{
     margin: 0;
 }
+/*set text to center */
 h2{
     margin: 0;
     text-align: center;
@@ -27,10 +30,14 @@ h2{
 form{
     text-align: center;
 }
+/* setting max width and padding. */
 main{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+}
+p{
+    text-align: center;
 }
 section{
     margin-bottom: 20px;
@@ -39,10 +46,11 @@ section h2{
     font-size: 26px;
     margin-bottom: 10px;
 }
-\section img{
+section img{
     display: block;
     margin: 0 auto;
 }
+/*Removing dots from the unordered list */
 ul{
     list-style-type: none;
     padding: 0;
@@ -54,6 +62,7 @@ ul li img{
     vertical-align: middle;
     margin-left:16px;
 }
+/*Changing the size of the entry boxes along with changing the style of the border and rounding out the edges. */
 input[type="Character Name"]{
     width: 50%;
     padding: 10px;
@@ -68,6 +77,7 @@ input[type="text"], input[type="submit"]{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+/*Changing the style of the "submit" button and adding a hover effect to it as well. */
 input[type="submit"]{
     background-color: #333;
     color: #fff;
@@ -77,6 +87,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: #555;
 }
+/*Changing the size of the table along with adding a background to the 'th' and alligning text to the left */
 table{
     width: 100%;
     border-collapse: collapse;
@@ -89,6 +100,7 @@ th, td{
 th{
     background-color: #f2f2f2;
 }
+/*Removing the underline from the nav links along with changing the color, giving them a box, adding a hover effect and transition effect. */
 .pageLinks{
     text-align: center;
     margin: 20px 0;
